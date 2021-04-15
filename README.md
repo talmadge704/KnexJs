@@ -98,12 +98,7 @@ Modifying the Database Schema
 You are now able to make a connection to the database in the Knexfile. For example, let us create a table that will hold some of your favorite movies. Your knowledge of SQL suggests that the statement might look something like:
 
 -- Create table statement with 4 fields
-CREATE TABLE movies (
-  id serial PRIMARY KEY,
-  title VARCHAR(255) NOT NULL,
-  genre VARCHAR(50),
-  release_date DATE NOT NULL
-);
+CREATE TABLE movies (id serial PRIMARY KEY,title VARCHAR(255) NOT NULL,genre VARCHAR(50release_date DATE NOT NULL);
 This is still true and as full-stack software engineers you are still responsible for being aware of this syntax. But do you need to write it? No, thank you. Using Knex.js, you can create what is called a "migration", a change to the database schema that can be tracked and version controlled.
 
 npx knex migrate:make create_movies
