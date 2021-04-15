@@ -1,0 +1,25 @@
+{
+  "name": "KnexJs",
+  "version": "1.0.0",
+  "description": "Knex.js Learning Objectives By the end of this lesson, you will be able to:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talmadge704/KnexJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talmadge704/KnexJs/issues"
+  },
+  "homepage": "https://github.com/talmadge704/KnexJs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "pg": "^8.6.0"
+  }
+}
